@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multi-Search Prototype</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <h1>Multi-Search Prototype</h1>
+      <button id="add-website-btn">+</button>
+    </div>
+    <input type="text" id="search-input" placeholder="Search across platforms...">
+    <div id="category-buttons">
+      </div>
+    <div id="results-container">
+      <!-- Results will be displayed here -->
+    </div>
+  </div>
+
+  <div id="side-menu">
+    <div id="website-selection">
+      <!-- Website selection menu will go here -->
+    </div>
+    <button id="close-menu-btn">Back</button>  <!-- Back button -->
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.4.2/chroma.min.js"></script> 
+  <script src="script.js"></script>
+</body>
+</html>
